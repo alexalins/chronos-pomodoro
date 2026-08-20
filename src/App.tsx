@@ -1,10 +1,18 @@
+import { Container } from './components/Container';
+import { Heading } from './components/Heading';
+import { Logo } from './components/Logo';
 import './styles/global.css';
 import './styles/theme.css';
 
 export default function App() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <>
+      <Container>
+        <Logo />
+      </Container>
+      <Container>
+        <Heading>Hello World</Heading>
+      </Container>
+    </>
   );
 }
