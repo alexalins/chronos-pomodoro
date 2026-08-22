@@ -1,11 +1,11 @@
 import styles from './styles.module.css';
-import { HistoryIcon, SettingsIcon, SunIcon, TimerIcon } from 'lucide-react';
+import { HistoryIcon, HouseIcon, SettingsIcon, SunIcon } from 'lucide-react';
 
 export function Menu() {
   return (
     <nav className={styles.menu}>
       <a href='/' className={styles.menuLink}>
-        <TimerIcon />
+        <HouseIcon />
       </a>
       <a href='/' className={styles.menuLink}>
         <HistoryIcon />
