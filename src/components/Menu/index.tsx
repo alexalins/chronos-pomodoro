@@ -27,20 +27,25 @@ export function Menu() {
 
   return (
     <nav className={styles.menu}>
-      <a href='#' className={styles.menuLink} aria-label='Home' title='Home'>
+      <a href='#' className={styles.menuLink} aria-label='Ir para Home' title='Ir para Home'>
         <HouseIcon />
       </a>
-      <a href='#' className={styles.menuLink} aria-label='Histórico' title='Histórico'>
+      <a href='#' className={styles.menuLink} aria-label='Ver Histórico' title='Ver Histórico'>
         <HistoryIcon />
       </a>
-      <a href='#' className={styles.menuLink} aria-label='Configurações' title='Configurações'>
+      <a
+        href='#'
+        className={styles.menuLink}
+        aria-label='Ir para Configurações'
+        title='Ir para Configurações'
+      >
         <SettingsIcon />
       </a>
       <a
         href='#'
         className={styles.menuLink}
-        aria-label='Tema'
-        title='Tema'
+        aria-label='Mudar Tema'
+        title='Mudar Tema'
         onClick={handleChangeTheme}
       >
         {nextThemeIcon[theme]}
